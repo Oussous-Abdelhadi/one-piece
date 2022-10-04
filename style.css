@@ -6,24 +6,6 @@ html, body {
     overflow-x: hidden;
 }
 
-body{
-    background-image: url('assets/img/fond.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:  fixed;
-}
-
-.head{
-    height: 100px;
-    width: 960px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    font-size: 10px;
-    background-color : #cad1d6;
-}
-
 .text-3d {
     text-transform: uppercase;
     font-family: verdana;
@@ -115,4 +97,9 @@ video {
     padding: 10px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
     background-color: #DA0001;
+}
+
+#image{
+    width: 500px;
+    height: 500px;
 }
